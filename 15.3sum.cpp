@@ -19,8 +19,8 @@ public:
                 else{
                     output.push_back({nums[i], nums[low], nums[high]});
                     int tempIndex1 = low, tempIndex2 = high;
-                    while(low < high && nums[low] == nums[tempIndex1]) low++;
-                    while(low < high && nums[high] == nums[tempIndex2]) high--;
+                    while(low < high && nums[low] == nums[tempIndex1]) low++; // skips the duplicates ....
+                    while(low < high && nums[high] == nums[tempIndex2]) high--; // .., for next itereation
                 }
             }
             while(i+1 < n && nums[i] == nums[i+1]) i++;
