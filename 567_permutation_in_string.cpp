@@ -2,15 +2,6 @@
 
 using namespace std;
 
-/*
-    Given 2 strings, return true if s2 contains permutation of s1
-    Ex. s1 = "ab", s2 = "eidbaooo" -> true, s2 contains "ba"
-
-    Sliding window, expand + count down char, contract + count up char
-
-    Time: O(n)
-    Space: O(1)
-*/
 
 class Solution {
 public:
