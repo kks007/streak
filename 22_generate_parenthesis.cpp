@@ -15,6 +15,7 @@ public:
                 continue;
             }
             
+            
             int num2 = stk.top();
             stk.pop();
             int num1 = stk.top();
