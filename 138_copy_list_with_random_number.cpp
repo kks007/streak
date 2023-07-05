@@ -1,3 +1,7 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
 /*
     Given linked list w/ also a random pointer, construct deep copy
 
@@ -9,7 +13,7 @@
     Space: O(n) -> can optimize to O(1)
 */
 
-/*
+
 // Definition for a Node.
 class Node {
 public:
@@ -19,11 +23,11 @@ public:
     
     Node(int _val) {
         val = _val;
-        next = NULL;
-        random = NULL;
+        next = nullptr;
+        random = nullptr;
     }
 };
-*/
+
 
 // class Solution {
 // public:
