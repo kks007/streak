@@ -11,12 +11,11 @@ using namespace std;
     Space: O(n)
 */
 
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
+  struct TreeNode {
+      int val;
+      TreeNode *left;
+      TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+  };
 
 
 class Solution {
